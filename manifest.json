@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Visual-able",
-  "description": "A Chrome extension for color blindness simulation, text-to-speech for visually impaired users, a magnifying glass feature, a night mode and high contrast mode.",
+  "description": "Accessibility tool including color blindness simulation, magnifier, TTS, night mode, and high contrast mode.",
   "version": "1.0",
   "background": {
     "service_worker": "background.js"
@@ -16,6 +16,22 @@
     "default_icon": "icon.png",
     "default_popup": "popup.html",
     "default_title": "Visual Impairment"
+  },
+  "commands": {
+    "toggle-magnifier": {
+      "suggested_key": {
+        "default": "Alt+M",
+        "mac": "Command+M"
+      },
+      "description": "Toggle Magnifier"
+    },
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+V",
+        "mac": "Command+Shift+V"
+      },
+      "description": "Open Extension Popup"
+    }
   },
   "content_scripts": [
     {
