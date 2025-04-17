@@ -15,4 +15,10 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         core.capture(); // Call magnifier activation
     }
 });
+chrome.commands.onCommand.addListener((command) => {
+    if (command === "toggle-magnifier") {
+      core.capture();  // Existing function that toggles magnifier
+    }
+  });
+  
 
