@@ -1,7 +1,7 @@
 # Visual-able
 
 **Visual-able** is a Chrome Extension designed to empower users with visual impairments to browse more comfortably. It offers a suite of accessibility features—colourblind filters, a magnifier, text-to-speech, high-contrast and night modes—right at your fingertips.
-
+It is Available on the Chrome Extension store: https://chromewebstore.google.com/detail/visual-able/ajbalmmngklhkkanmieelghghnjganjn?hl=en-GB&authuser=0
 ---
 
 ##  Features
